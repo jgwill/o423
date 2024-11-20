@@ -3,6 +3,8 @@ contact_links:
   - name: 💡 Feature Request
     url: https://github.com/jgwill/o423/discussions/new?category=ideas
     about: Suggest any ideas you have for enhancing the Narrative Engine.
+  - name: Creative Session Questions
+    url: https://github.com/jgwill/o423/discussions/new?category=cquestions
   - name: 🤗 Get Help
     url: https://github.com/jgwill/o423/discussions/new?category=support
     about: If you encounter issues or need assistance, reach out through our discussion forums.
