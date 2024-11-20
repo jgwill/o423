@@ -1,0 +1,36 @@
+# ISSUE_TEMPLATE/BUG_REPORT.YML
+name: 🐞 Bug Report
+description: Create a bug report to help us improve the Narrative Engine
+title: "bug: "
+labels: ["🐞❔ Unconfirmed Bug"]
+body:
+  - type: textarea
+    attributes:
+      label: Describe the Bug
+      description: Explain the discrepancy between the expected outcome and the actual behavior observed.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: To Reproduce
+      description: Provide detailed steps to replicate the issue, including code snippets or repositories if applicable.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: SDK and Container Versions
+      description: Specify the versions of any SDKs or containers you're using. Ensure you're on the latest versions.
+  - type: textarea
+    attributes:
+      label: Additional Information
+      description: Include any other relevant details, such as screenshots or logs, that can help us understand the issue.
+  - type: dropdown
+    id: contribute
+    attributes:
+      label: Interested in Contributing a Fix?
+      description: Let us know if you'd like to help resolve this bug. Our maintainers are ready to assist.
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
