@@ -1,0 +1,42 @@
+# ISSUE_TEMPLATE/CREATIVE_SESSION.YML
+name: 🐞 Creative Session Report
+description: Create a report to help us improve our creative sessions.
+title: "CSess: "
+labels: ["creative-session"]
+body:
+  - type: textarea
+    attributes:
+      label: Describe the End-result desired in your Creative Session
+      description: Where do you want to be at the end of the creative session?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Reality
+      description: Explain the discrepancy between the expected outcome and the actual reality observed.
+    validations:
+      required: true
+  - type: due_date
+    attributes:
+      label: When do you need this creative session to be completed?
+      description: Set a due date for the completion of this creative session.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Technical Details
+      description: Specify the technical details of the creative session. Include the tools, software, and hardware used.
+  - type: textarea
+    attributes:
+      label: Additional Information
+      description: Include any other relevant details, such as screenshots, logs, URLs, that can help others contribute to the resolution of your creative session (hopefully, if you want to share and do, that is because it can be improved or simply shared to others).
+  - type: dropdown
+    id: contribute
+    attributes:
+      label: Did this creative session already ended ?
+      description: Let us know if you are still working on this creative session or if it has already ended.
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
