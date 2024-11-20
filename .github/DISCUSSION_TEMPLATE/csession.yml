@@ -1,0 +1,17 @@
+body:
+  - type: textarea
+    attributes:
+      label: Creative Session Title
+      description: Describe the end-result that this 
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Creative Session Description
+      description: Add information related to the 
+  - type: textarea
+    attributes:
+      label: Observations
+      description: Add any observations or insights that you have about the feature here.
+    validations:
+      required: true
